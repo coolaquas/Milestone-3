@@ -34,13 +34,13 @@ function winner() {
     if ((score[moveOf] & winScore[i]) == winScore[i]) {
       document.getElementById("player").innerHTML =
         players[moveOf] + " is winner";
-      return winner();
       //if won, stop accepting symbols
       moves[0] = "";
       moves[1] = "";
       //final score of player1
       // localStorage.removeItem(players[0]);
       // p1 = p1 + score[0];
+      return winner();
       localStorage.setItem("players[0]", score[0]);
       localStorage.setItem("players[1]", score[1]);
       score[0] = 0;
