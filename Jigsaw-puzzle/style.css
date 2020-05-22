@@ -1,10 +1,17 @@
-#container{
+#WIP{
+    margin-left: 25%;
+    width: 800px;
+    min-height: 700px;
+    background-image: url(./Image/work-in-progress.png);
+    background-repeat: no-repeat;
+}
+
+/* #container{
     width: 850px;
     border: 2px solid black;
     border-radius: 20px;
     margin: 10px auto;
     padding: 10px;
-
 }
 #pices-container{
     width: 49%;
@@ -46,4 +53,4 @@ ul button{
 }
 #btn-reset{
     display: none;
-}
+} */
