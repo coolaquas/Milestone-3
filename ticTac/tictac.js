@@ -34,6 +34,7 @@ function winner() {
     if ((score[moveOf] & winScore[i]) == winScore[i]) {
       document.getElementById("player").innerHTML =
         players[moveOf] + " is winner";
+      
       //if won, stop accepting symbols
       moves[0] = "";
       moves[1] = "";
